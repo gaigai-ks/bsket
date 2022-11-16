@@ -1,4 +1,4 @@
-package com.example.bsket
+package com.example.b_sket
 
 import org.junit.Test
 
