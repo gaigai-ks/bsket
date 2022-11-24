@@ -19,37 +19,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="776dp"
-        android:layout_height="243dp"
-        android:fontFamily="sans-serif-condensed"
-        android:lineSpacingExtra="14sp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textSize="96sp"
-        android:typeface="serif"
-        app:icon="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="779dp"
-        android:layout_height="0dp"
-        android:background="#2E1D1D"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="791dp" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:showText="true"
-        android:switchTextAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:text="Switch"
-        android:textAlignment="center"
-        android:textColor="#B80202"
-        tools:checked="true"
-        tools:layout_editor_absoluteX="383dp"
-        tools:layout_editor_absoluteY="1116dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
