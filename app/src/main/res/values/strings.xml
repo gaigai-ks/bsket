@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">B-SKET</string>
+    <string name="アカウントID">アカウントID</string>
+    <string name="戻る">戻る</string>
+    <string name="ログイン">ログイン</string>
+    <string name="hint">入力してください</string>
 </resources>
