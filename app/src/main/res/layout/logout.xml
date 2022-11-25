@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80F4F0">
+    android:background="#F1BD95">
 
     <TextView
         android:id="@+id/textlogout"
@@ -13,7 +13,7 @@
         android:layout_margin="20dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Logout?"
+        android:text="@string/ログアウト"
         android:textColor="@color/black"
         android:textSize="150sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,9 +31,9 @@
         android:layout_marginTop="172dp"
         android:layout_marginEnd="416dp"
         android:layout_marginBottom="356dp"
-        android:text="いいえ"
+        android:text="@string/いいえ"
         android:textSize="60sp"
-        app:backgroundTint="#F642B8"
+        app:backgroundTint="#0E0E0E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,9 +47,9 @@
         android:layout_marginTop="174dp"
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="356dp"
-        android:text="はい"
+        android:text="@string/はい"
         android:textSize="60sp"
-        app:backgroundTint="#F642B8"
+        app:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/no"

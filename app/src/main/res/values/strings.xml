@@ -3,5 +3,8 @@
     <string name="アカウントID">アカウントID</string>
     <string name="戻る">戻る</string>
     <string name="ログイン">ログイン</string>
+    <string name="ログアウト">Logout?</string>
     <string name="hint">入力してください</string>
+    <string name="はい">はい</string>
+    <string name="いいえ">いいえ</string>
 </resources>
