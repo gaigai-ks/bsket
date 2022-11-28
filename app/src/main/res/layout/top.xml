@@ -16,6 +16,7 @@
         tools:context=".MainActivity">
 
         <Button
+            android:id="@+id/LoginButton"
             android:layout_width="500dp"
             android:layout_height="100dp"
             android:layout_above="@+id/id1"
