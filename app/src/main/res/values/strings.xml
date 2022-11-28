@@ -1,10 +1,20 @@
 <resources>
     <string name="app_name">B-SKET</string>
     <string name="アカウントID">アカウントID</string>
+    <string name="アカウント名">アカウント名</string>
+    <string name="パスワード">パスワード</string>
+    <string name="性別">性別</string>
+    <string name="男">男</string>
+    <string name="女">女</string>
+    <string name="その他">その他</string>
+    <string name="生年月日">生年月日</string>
+    <string name="電話番号">電話番号</string>
     <string name="戻る">戻る</string>
     <string name="ログイン">ログイン</string>
     <string name="ログアウト">Logout?</string>
     <string name="hint">入力してください</string>
     <string name="はい">はい</string>
     <string name="いいえ">いいえ</string>
+    <string name="作成">作成</string>
+    <string name="キャンセル">キャンセル</string>
 </resources>
