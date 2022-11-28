@@ -17,4 +17,5 @@
     <string name="いいえ">いいえ</string>
     <string name="作成">作成</string>
     <string name="キャンセル">キャンセル</string>
+    <string name="title_activity_maps">maps</string>
 </resources>
