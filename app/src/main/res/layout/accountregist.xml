@@ -181,7 +181,7 @@
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="311dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="84dp"
         android:ems="10"
         android:hint="@string/hint"
         android:inputType="phone"
