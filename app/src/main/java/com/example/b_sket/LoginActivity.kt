@@ -10,6 +10,10 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
 
+        val retrunButton = findViewById<Button>(R.id.retrun_button)
+        retrunButton.setOnClickListener {
+            finish()
+        }
 
     }
 }
