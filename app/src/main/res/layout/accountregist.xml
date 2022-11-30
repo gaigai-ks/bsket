@@ -202,7 +202,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/AccountRegistCancelButton"
         android:layout_width="160dp"
         android:layout_height="63dp"
         android:layout_marginStart="84dp"

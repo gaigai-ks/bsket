@@ -19,7 +19,7 @@
             android:id="@+id/LoginButton"
             android:layout_width="500dp"
             android:layout_height="100dp"
-            android:layout_above="@+id/id1"
+            android:layout_above="@+id/LoginButton"
             android:layout_centerInParent="true"
             android:text="ログイン"
             android:textSize="60sp" />
@@ -32,7 +32,7 @@
             android:layout_centerHorizontal="true"
             android:text="新規会員登録"
             android:textSize="60sp"
-            android:id="@+id/id1"/>
+            android:id="@+id/AccountRegistButton"/>
 
 
     </RelativeLayout>
