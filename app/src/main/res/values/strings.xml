@@ -18,4 +18,5 @@
     <string name="作成">作成</string>
     <string name="キャンセル">キャンセル</string>
     <string name="title_activity_maps">maps</string>
+    <string name="login_ok">ログイン成功！</string>
 </resources>
