@@ -9,26 +9,22 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="1064dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="27dp"
+        android:layout_marginTop="1023dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="68dp"
         android:text="閉じる"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="361dp"
         android:layout_height="104dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="1064dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="27dp"
+        android:layout_marginTop="1023dp"
+        android:layout_marginBottom="64dp"
         android:text="メッセージ"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,13 +32,4 @@
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:context=".MapsActivity"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
