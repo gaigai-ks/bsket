@@ -21,4 +21,11 @@
     <string name="regist_ok">登録完了！</string>
     <string name="login_no">ログイン失敗！</string>
     <string name="logout_ok">ログアウトしました！</string>
+    <string name="title_activity_main">Main</string>
+    <string name="search">検索</string>
+    <string name="message">メッセージ</string>
+    <string name="kyuen">救援要請</string>
+    <string name="point">ポイント</string>
+    <string name="ac_syosai">アカウント詳細</string>
+    <string name="main">メイン</string>
 </resources>
