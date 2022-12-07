@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1BD95">
+    android:background="#FF3366">
 
     <TextView
         android:id="@+id/textlogout"

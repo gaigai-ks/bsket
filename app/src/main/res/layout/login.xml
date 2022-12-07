@@ -29,7 +29,7 @@
         android:layout_height="244dp"
         android:text="@string/戻る"
         android:textSize="48sp"
-        app:backgroundTint="#F642BB"
+        app:backgroundTint="#FF8856"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -97,17 +97,15 @@
         android:id="@+id/button"
         android:layout_width="282dp"
         android:layout_height="244dp"
-        android:text="@string/ログイン"
+        android:text="ログイン"
         android:textSize="48sp"
-        app:iconTint="#090909"
-        app:backgroundTint="#F642BB"
+        app:backgroundTint="#FF9999"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.681"
-        app:rippleColor="#000000" />
+        app:layout_constraintVertical_bias="0.681" />
 
     <TextView
         android:id="@+id/textView"

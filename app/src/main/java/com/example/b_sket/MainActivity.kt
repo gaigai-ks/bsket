@@ -6,20 +6,10 @@ import android.os.Bundle
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.top)
-
-        val loginButton = findViewById<Button>(R.id.LoginButton)
-        loginButton.setOnClickListener{
-            val intent = Intent(this,LoginActivity ::class.java)
-            startActivity(intent)
-        }
-        val accountRegistButton = findViewById<Button>(R.id.AccountRegistButton)
-        accountRegistButton.setOnClickListener {
-            val intent = Intent(this, AccountRegistActivity::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.accountsyousai)
     }
 
 }
