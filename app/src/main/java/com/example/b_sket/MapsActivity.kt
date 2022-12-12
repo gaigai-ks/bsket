@@ -1,15 +1,14 @@
 package com.example.b_sket
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import androidx.appcompat.app.AppCompatActivity
+import com.example.b_sket.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.example.b_sket.databinding.ActivityMapsBinding
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
@@ -41,8 +40,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+//        val sydney = LatLng(-34.0, 151.0)
+//        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+
+        val kyoto = LatLng(35.011665, 135.768326) //緯度・経度
+        mMap.addMarker(MarkerOptions().position(kyoto).title("Marker in Kyoto"))
+        //mMap.moveCamera(CameraUpdateFactory.newLatLng(kyoto))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(kyoto, 8f)) //2)zoom表示
+        mMap.uiSettings.isZoomControlsEnabled = true //3)拡大・縮小ボタン表示
+
     }
 }
