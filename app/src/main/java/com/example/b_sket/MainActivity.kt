@@ -1,14 +1,26 @@
 package com.example.b_sket
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_maps)
+        setContentView(R.layout.kyujoyouseisentaku)
+
+        val mapButton = findViewById<Button>(R.id.mapButton)
+        mapButton.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
+
 
 /*class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMain2Binding
