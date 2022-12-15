@@ -16,13 +16,21 @@ class DashboardFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        super.onCreate(savedInstanceState)
         val dashboardViewModel =
             ViewModelProvider(this).get(DashboardViewModel::class.java)
+
+//        val mapButton = findViewById<Button>(R.id.mapButton)
+//        mapButton.setOnClickListener {
+//            val intent = Intent(this, MapsActivity::class.java)
+//            startActivity(intent)
+//        }
+
+
+
+
 
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -31,6 +39,8 @@ class DashboardFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }*/
+
+
         return root
     }
 
@@ -38,4 +48,6 @@ class DashboardFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
 }

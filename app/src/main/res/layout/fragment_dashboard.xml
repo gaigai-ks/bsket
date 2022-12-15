@@ -6,33 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ui.dashboard.DashboardFragment">
 
-    <fragment
-        android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MapsActivity" />
-
     <Button
-        android:id="@+id/button2"
-        android:layout_width="256dp"
-        android:layout_height="104dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="72dp"
-        android:text="閉じる"
-        android:textSize="60sp"
+        android:id="@+id/mapButton"
+        android:layout_width="253dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="491dp"
+        android:layout_marginTop="958dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="113dp"
+        android:text="ナビ"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="361dp"
-        android:layout_height="104dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="72dp"
-        android:text="メッセージ"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
