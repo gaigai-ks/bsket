@@ -50,8 +50,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
+
+        }
     }
-}
 
         /*loginButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)

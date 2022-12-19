@@ -22,18 +22,10 @@ class DashboardFragment : Fragment() {
         val dashboardViewModel =
             ViewModelProvider(this).get(DashboardViewModel::class.java)
 
-//        val mapButton = findViewById<Button>(R.id.mapButton)
-//        mapButton.setOnClickListener {
-//            val intent = Intent(this, MapsActivity::class.java)
-//            startActivity(intent)
-//        }
-
-
-
-
 
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
 
         /*val textView: TextView = binding.textDashboard
         dashboardViewModel.text.observe(viewLifecycleOwner) {
@@ -41,8 +33,11 @@ class DashboardFragment : Fragment() {
         }*/
 
 
+
         return root
     }
+
+
 
     override fun onDestroyView() {
         super.onDestroyView()

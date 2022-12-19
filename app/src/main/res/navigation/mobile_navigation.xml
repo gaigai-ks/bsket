@@ -23,8 +23,8 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/kyuen"
+        android:id="@+id/navigation_kyuen"
         android:name="com.example.b_sket.kyuen"
-        android:label="fragment_kyuen"
+        android:label="@string/title_kyuen"
         tools:layout="@layout/fragment_kyuen" />
 </navigation>
