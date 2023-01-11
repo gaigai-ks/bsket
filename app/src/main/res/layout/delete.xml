@@ -34,7 +34,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/Idnyuryoku" />
+        app:layout_constraintTop_toBottomOf="@+id/Idnyuryoku"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/setumei"
