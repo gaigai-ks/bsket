@@ -21,8 +21,9 @@ class AccountRegistActivity : AppCompatActivity() {
             finish()
         }
         val id = findViewById<EditText>(R.id.ac_id)
-        val name = findViewById<EditText>(R.id.ac_name)
         val pass = findViewById<EditText>(R.id.pass)
+        val name = findViewById<EditText>(R.id.ac_name)
+
 
         val insertButton = findViewById<Button>(R.id.createButton)
         insertButton.setOnClickListener {
@@ -36,11 +37,12 @@ class AccountRegistActivity : AppCompatActivity() {
         }
     }
 
-    private fun insertData(db: SQLiteDatabase, id: String, name: String, pass: String) {
+    private fun insertData(db: SQLiteDatabase, id: String, pass: String, name: String ) {
         val values = ContentValues()
         values.put("a_id", id)
-        values.put("name", name)
         values.put("password", pass)
+        values.put("name", name)
+
         db.insert("account", null, values)
     }
 }
