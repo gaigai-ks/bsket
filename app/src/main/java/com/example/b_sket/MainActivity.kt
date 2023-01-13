@@ -28,15 +28,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.top)
 
-        val syousai = findViewById<Button>(R.id.syousai)
-        syousai.setOnClickListener {
-            val intent = Intent(this, AccountSyosai::class.java)
+        val ac_regist = findViewById<Button>(R.id.AccountRegistButton)
+        ac_regist.setOnClickListener {
+            val intent = Intent(this, AccountRegistActivity::class.java)
             startActivity(intent)
         }
     }
 }
+
 
 
 //        binding = ActivityMain2Binding.inflate(layoutInflater)

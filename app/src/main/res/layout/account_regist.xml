@@ -6,20 +6,19 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/acid"
         android:layout_width="244dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="540dp"
         android:text="@string/アカウントID"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/idtxtbox"
+        app:layout_constraintBottom_toTopOf="@+id/ac_id"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/idtxtbox"
+        android:id="@+id/ac_id"
         android:layout_width="516dp"
         android:layout_height="63dp"
         android:layout_marginStart="16dp"
@@ -28,22 +27,20 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/hint"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/acName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/acName"
         android:layout_width="244dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="540dp"
         android:text="@string/アカウント名"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/accountnamebox"
+        app:layout_constraintBottom_toTopOf="@+id/ac_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -59,7 +56,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/accountnamebox"
+        android:id="@+id/ac_name"
         android:layout_width="513dp"
         android:layout_height="62dp"
         android:layout_marginStart="13dp"
@@ -81,12 +78,12 @@
         android:layout_marginEnd="543dp"
         android:text="@string/パスワード"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/pass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/pass"
         android:layout_width="521dp"
         android:layout_height="56dp"
         android:layout_marginStart="15dp"
@@ -172,26 +169,23 @@
         android:inputType="date"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="473dp"
         android:layout_height="57dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="311dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="128dp"
         android:ems="10"
         android:hint="@string/hint"
         android:inputType="phone"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/AccountRegistCancelButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/createButton"
         android:layout_width="160dp"
         android:layout_height="63dp"
         android:layout_marginStart="16dp"
