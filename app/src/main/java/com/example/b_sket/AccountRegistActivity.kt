@@ -44,3 +44,4 @@ class AccountRegistActivity : AppCompatActivity() {
         db.insert("account", null, values)
     }
 }
+//https://akira-watson.com/android/kotlin/sqlite-database.html
