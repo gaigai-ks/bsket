@@ -53,6 +53,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".logingo"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".AccountSyosai"
             android:exported="false">
             <meta-data

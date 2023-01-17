@@ -30,14 +30,13 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.top)
 
-        val ac_regist = findViewById<Button>(R.id.AccountRegistButton)
-        ac_regist.setOnClickListener {
-            val intent = Intent(this, AccountRegistActivity::class.java)
+        val login = findViewById<Button>(R.id.LoginButton)
+        login.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }
 }
-
 
 
 //        binding = ActivityMain2Binding.inflate(layoutInflater)
