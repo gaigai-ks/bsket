@@ -10,11 +10,11 @@ class logingo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val syousai = findViewById<Button>(R.id.syousai)
-        syousai.setOnClickListener {
-            val intent = Intent(this, AccountSyosai::class.java)
-            startActivity(intent)
+//        val syousai = findViewById<Button>(R.id.syousai)
+//        syousai.setOnClickListener {
+//            val intent = Intent(this, AccountSyosai::class.java)
+//            startActivity(intent)
         }
     }
-}
+
 

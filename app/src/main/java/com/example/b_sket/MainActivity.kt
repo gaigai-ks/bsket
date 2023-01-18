@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-
 //        binding = ActivityMain2Binding.inflate(layoutInflater)
 //        setContentView(binding.root)
 

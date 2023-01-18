@@ -5,11 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CCFFFF"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/edit_text"
+        android:id="@+id/accountId"
         android:layout_width="578dp"
         android:layout_height="65dp"
         android:autofillHints="@string/hint"
@@ -34,7 +34,7 @@
         android:text="@string/戻る"
         android:textSize="60sp"
         app:backgroundTint="#4689FF"
-        app:layout_constraintBottom_toTopOf="@+id/edit_text"
+        app:layout_constraintBottom_toTopOf="@+id/accountId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/edit_text"
+        app:layout_constraintStart_toEndOf="@+id/accountId"
         app:layout_constraintTop_toTopOf="parent" />
 
 
