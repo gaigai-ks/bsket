@@ -30,13 +30,23 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.top)
 
-        val ac_regist = findViewById<Button>(R.id.AccountRegistButton)
-        ac_regist.setOnClickListener {
+        val loginButton = findViewById<Button>(R.id.LoginButton)
+        loginButton.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+        val accountRegistButton = findViewById<Button>(R.id.AccountRegistButton)
+        accountRegistButton.setOnClickListener {
             val intent = Intent(this, AccountRegistActivity::class.java)
             startActivity(intent)
         }
     }
 }
+//        val nabi = findViewById<Button>(R.id.mapButton)
+//        nabi.setOnClickListener {
+//            val intent = Intent(this, AccountRegistActivity::class.java)
+//            startActivity(intent)
+
 
 
 
@@ -59,12 +69,3 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        /*loginButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
-        val accountRegistButton = findViewById<Button>(R.id.AccountRegistButton)
-        accountRegistButton.setOnClickListener {
-            val intent = Intent(this, AccountRegistActivity::class.java)
-            startActivity(intent)
-        }*/

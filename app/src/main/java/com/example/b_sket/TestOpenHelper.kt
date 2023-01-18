@@ -11,14 +11,20 @@ class TestOpenHelper internal constructor(context: Context?) :
         // テーブル作成
         // SQLiteファイルがなければSQLiteファイルが作成される
         db.execSQL(
-            SQL_CREATE_ENTRIES
+            SQL_CREATE_ENTRIES_1
+        )
+        db.execSQL(
+            SQL_CREATE_ENTRIES_2
         )
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         // アップデートの判別
         db.execSQL(
-            SQL_DELETE_ENTRIES
+            SQL_DELETE_ENTRIES_1
+        )
+        db.execSQL(
+            SQL_DELETE_ENTRIES_2
         )
         onCreate(db)
     }
@@ -33,16 +39,26 @@ class TestOpenHelper internal constructor(context: Context?) :
 
         // データーベース名
         private const val DATABASE_NAME = "Bsket.db"
-        private const val TABLE_NAME = "account"
+        private const val TABLE_NAME1 = "account"
         private const val _ID = "_id"
         private const val ac_id = "a_id"
         private const val ac_name = "name"
         private const val pass = "password"
-        private const val SQL_CREATE_ENTRIES = "CREATE TABLE " + TABLE_NAME + " (" +
+        private const val SQL_CREATE_ENTRIES_1 = "CREATE TABLE " + TABLE_NAME1 + " (" +
                 _ID + " INTEGER PRIMARY KEY," +
                 ac_id + " TEXT," +
                 pass + " TEXT," +
                 ac_name + " TEXT)"
-        private const val SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS " + TABLE_NAME
+        private const val SQL_DELETE_ENTRIES_1 = "DROP TABLE IF EXISTS " + TABLE_NAME1
+
+        private const val TABLE_NAME2 = "yousei"
+        private const val name = "name"
+        private const val message = "message"
+        private const val location = "location"
+        private const val SQL_CREATE_ENTRIES_2 = "CREATE TABLE " + TABLE_NAME2 + " (" +
+                name + " TEXT PRIMARY KEY," +
+                message + " TEXT," +
+                location + " TEXT)"
+        private const val SQL_DELETE_ENTRIES_2 = "DROP TABLE IF EXISTS " + TABLE_NAME2
     }
 }

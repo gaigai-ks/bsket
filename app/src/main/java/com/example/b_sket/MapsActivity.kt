@@ -56,7 +56,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        mMap.isMyLocationEnabled = true
+        mMap.isMyLocationEnabled = true             //自分の位置情報
 
         if (ActivityCompat.checkSelfPermission(
                 this,
