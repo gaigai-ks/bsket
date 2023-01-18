@@ -10,10 +10,15 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
 
-        val retrunButton = findViewById<Button>(R.id.retrun_button)
-        retrunButton.setOnClickListener {
-            finish()
+        val loginbutton = findViewById<Button>(R.id.button)
+        loginbutton.setOnClickListener {
+            val intent = Intent(this, logingo::class.java)
+            startActivity(intent)
         }
 
+        val returnButton = findViewById<Button>(R.id.return_button)
+        returnButton.setOnClickListener {
+            finish()
+        }
     }
 }

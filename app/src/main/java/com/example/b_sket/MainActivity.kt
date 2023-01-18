@@ -42,11 +42,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-//        val nabi = findViewById<Button>(R.id.mapButton)
-//        nabi.setOnClickListener {
-//            val intent = Intent(this, AccountRegistActivity::class.java)
-//            startActivity(intent)
-
 
 
 
@@ -69,3 +64,12 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        /*loginButton.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+        val accountRegistButton = findViewById<Button>(R.id.AccountRegistButton)
+        accountRegistButton.setOnClickListener {
+            val intent = Intent(this, AccountRegistActivity::class.java)
+            startActivity(intent)
+        }*/

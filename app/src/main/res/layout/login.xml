@@ -24,12 +24,12 @@
         app:layout_constraintTop_toBottomOf="@+id/edit_text" />
 
     <Button
-        android:id="@+id/retrun_button"
+        android:id="@+id/return_button"
         android:layout_width="282dp"
         android:layout_height="244dp"
         android:text="@string/戻る"
         android:textSize="48sp"
-        app:backgroundTint="#FF8856"
+        app:backgroundTint="#565EFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintLeft_toLeftOf="parent"
