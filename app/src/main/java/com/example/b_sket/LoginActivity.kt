@@ -22,17 +22,20 @@ class LoginActivity : AppCompatActivity()  {
         loginCancelButton.setOnClickListener {
             finish()
         }
-        val iD = findViewById<EditText>(R.id.accountId)
-        val pASS = findViewById<EditText>(R.id.passWord)
 
-        val id=iD.toString()
-        val pass=pASS.toString()
-
-        var indxId=""
-        var indxPass=""
 
         val loginButton=findViewById<Button>(R.id.login_button)
         loginButton.setOnClickListener{
+
+            val iD = findViewById<EditText>(R.id.accountId)
+            val pASS = findViewById<EditText>(R.id.passWord)
+
+            val id=iD.toString()
+            val pass=pASS.toString()
+
+            var indxId=""
+            var indxPass=""
+
            val sql="SELECT * FROM account WHERE id=${id}"
 
             val cursor = db.rawQuery(sql, null)
@@ -46,17 +49,9 @@ class LoginActivity : AppCompatActivity()  {
                 indxId = cursor.getString(indxid)
                 indxPass=cursor.getString(indxpass)
             }
-            val sw= if(id==indxId && pass==indxPass){
-                "true"
-            }else{
-                "false"
-            }
-            //判定部---swの中身によって遷移先を変える
-            if (sw=="true"){
+            if(id==indxId && pass==indxPass){
                 val intent = Intent(this,logingo ::class.java)
                 startActivity(intent)
-            }else{
-
             }
 
         }
