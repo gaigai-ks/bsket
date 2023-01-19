@@ -1,6 +1,7 @@
 package com.example.b_sket
 
 import android.content.ContentValues
+import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.widget.Button
@@ -34,6 +35,11 @@ class AccountRegistActivity : AppCompatActivity() {
             val ac_name: String = name.text.toString()
 
             insertData(db, ac_id, pass, ac_name)
+
+           // val createbutton = findViewById<Button>(R.id.createButton)
+            //createbutton.setOnClickListener {
+            //    val intent = Intent(this, Account_dekita::class.java)
+              //  startActivity(intent)
         }
     }
 
