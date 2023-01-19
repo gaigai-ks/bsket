@@ -26,13 +26,13 @@
 
 
         <Button
+            android:id="@+id/AccountRegistButton"
             android:layout_width="500dp"
             android:layout_height="100dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:text="新規会員登録"
-            android:textSize="60sp"
-            android:id="@+id/AccountRegistButton"/>
+            android:textSize="60sp"/>
 
 
     </RelativeLayout>
