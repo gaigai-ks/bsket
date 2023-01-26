@@ -45,18 +45,22 @@ class TestOpenHelper internal constructor(context: Context?) :
         private const val ac_name = "name"
         private const val pass = "password"
         private const val SQL_CREATE_ENTRIES_1 = "CREATE TABLE " + TABLE_NAME1 + " (" +
-                _ID + " INTEGER ," +
-                ac_id + " TEXT PRIMARY KEY," +
+                _ID + " INTEGER PRIMARY KEY," +
+                ac_id + " TEXT ," +
                 pass + " TEXT," +
                 ac_name + " TEXT)"
         private const val SQL_DELETE_ENTRIES_1 = "DROP TABLE IF EXISTS " + TABLE_NAME1
 
         private const val TABLE_NAME2 = "yousei"
+        private const val _ID1 = "_id"
         private const val name = "name"
+        private const val title = "title"
         private const val message = "message"
         private const val location = "location"
         private const val SQL_CREATE_ENTRIES_2 = "CREATE TABLE " + TABLE_NAME2 + " (" +
-                name + " TEXT PRIMARY KEY," +
+                _ID1 + " INTEGER PRIMARY KEY," +
+                name + " TEXT ," +
+                title + " TEXT," +
                 message + " TEXT," +
                 location + " TEXT)"
         private const val SQL_DELETE_ENTRIES_2 = "DROP TABLE IF EXISTS " + TABLE_NAME2

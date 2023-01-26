@@ -1,7 +1,6 @@
 package com.example.b_sket
 
 import android.content.ContentValues
-import android.content.Intent
 import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.widget.Button
@@ -31,10 +30,10 @@ class AccountRegistActivity : AppCompatActivity() {
             helper = TestOpenHelper(applicationContext)
             db = helper.writableDatabase
             val ac_id: String = id.text.toString()
-            val pass: String = pass.text.toString()
+            val passw: String = pass.text.toString()
             val ac_name: String = name.text.toString()
 
-            insertData(db, ac_id, pass, ac_name)
+            insertData(db, ac_id, passw, ac_name)
 
            // val createbutton = findViewById<Button>(R.id.createButton)
             //createbutton.setOnClickListener {
