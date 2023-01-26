@@ -56,13 +56,15 @@ class TestOpenHelper internal constructor(context: Context?) :
         private const val name = "name"
         private const val title = "title"
         private const val message = "message"
-        private const val location = "location"
+        private const val latitude = "latitude"
+        private const val longitude = "longitude"
         private const val SQL_CREATE_ENTRIES_2 = "CREATE TABLE " + TABLE_NAME2 + " (" +
                 _ID1 + " INTEGER PRIMARY KEY," +
                 name + " TEXT ," +
                 title + " TEXT," +
                 message + " TEXT," +
-                location + " TEXT)"
+                latitude + " REAL,"+
+                longitude + " REAL)"
         private const val SQL_DELETE_ENTRIES_2 = "DROP TABLE IF EXISTS " + TABLE_NAME2
     }
 }

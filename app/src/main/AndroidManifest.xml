@@ -52,6 +52,23 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".a_text"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Logout"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ac_syosai">
+        </activity>
+        <activity
             android:name=".select"
             android:exported="false">
             <meta-data
@@ -81,6 +98,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".youseinyuryoku"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
 <!--        <activity-->
 <!--            android:name=".AccountSyosai"-->
 <!--            android:exported="false">-->
@@ -88,13 +112,7 @@
 <!--                android:name="android.app.lib_name"-->
 <!--                android:value="" />-->
 <!--        </activity>-->
-        <activity
-            android:name=".Logout"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+
         <activity
             android:name=".LoginActivity"
             android:exported="false">

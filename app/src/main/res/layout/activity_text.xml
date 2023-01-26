@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/midasi2"
+        android:layout_width="550dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="123dp"
+        android:gravity="center"
+        android:text="要請詳細"
+        android:textColor="#0E0D0D"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="213dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:text="タイトル："
+        android:textColor="#151111"
+        android:textSize="39sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textContents"
+        android:layout_width="110dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="117dp"
+        android:text="内容"
+        android:textColor="#120F0F"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="436dp"
+        android:layout_marginBottom="92dp"
+        android:onClick="btnCancel_onClick"
+        android:text="キャンセル"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editContents"
+        android:layout_width="759dp"
+        android:layout_height="376dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="#100D0D"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textContents" />
+
+    <TextView
+        android:id="@+id/editTitle"
+        android:layout_width="550dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center|left"
+        android:textColor="#100C0C"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textTitle"
+        app:layout_constraintTop_toBottomOf="@+id/midasi2" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="92dp"
+        android:text="ナビ"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

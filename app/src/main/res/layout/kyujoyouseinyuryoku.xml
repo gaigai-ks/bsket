@@ -10,44 +10,44 @@
         android:id="@+id/kakutei"
         android:layout_width="290dp"
         android:layout_height="100dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="77dp"
         android:layout_marginBottom="144dp"
         android:text="確定"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naiyou" />
 
     <EditText
-        android:id="@+id/edit_text"
+        android:id="@+id/naiyou"
         android:layout_width="550dp"
         android:layout_height="384dp"
-        android:layout_marginTop="125dp"
-        android:layout_marginBottom="544dp"
+        android:layout_marginTop="28dp"
         android:autofillHints="@string/hint"
         android:background="#ffffff"
         android:gravity="left"
         android:hint="@string/hint"
         android:inputType="text"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/naiyou"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
 
     <TextView
-        android:id="@+id/naiyou"
+        android:id="@+id/midasi"
         android:layout_width="550dp"
         android:layout_height="106dp"
         android:layout_marginStart="127dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="123dp"
         android:gravity="center"
         android:text="要請入力画面"
         android:textColor="#0E0D0D"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,10 +56,52 @@
         android:layout_width="290dp"
         android:layout_height="100dp"
         android:layout_marginStart="101dp"
+        android:layout_marginTop="70dp"
         android:layout_marginBottom="144dp"
         android:text="@string/戻る"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naiyou" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="558dp"
+        android:text="タイトル"
+        android:textColor="#090808"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/midasi" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="102dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="622dp"
+        android:text="内容"
+        android:textColor="#090808"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titletext" />
+
+    <EditText
+        android:id="@+id/titletext"
+        android:layout_width="617dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

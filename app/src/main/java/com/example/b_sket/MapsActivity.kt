@@ -3,6 +3,7 @@ package com.example.b_sket
 import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.Color
+import android.location.Location
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +24,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
     lateinit var fusedLocationProviderClient: FusedLocationProviderClient
+    var currentLocation: Location? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -96,8 +98,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 //        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
 //        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
 
-                    val irai = LatLng(location.getLatitude(), location.getLongitude()) //緯度・経度
-                    mMap.addMarker(MarkerOptions().position(irai).title(" "))
+
+                    val irai = LatLng(33.88900790914257, 130.8792403887603) //緯度・経度
+                    mMap.addMarker(MarkerOptions().position(irai).title("たすけて！？"))
                     //mMap.moveCamera(CameraUpdateFactory.newLatLng(kyoto))
                     mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(irai, 17f)) //2)zoom表示
                     googleMap.addPolyline(
