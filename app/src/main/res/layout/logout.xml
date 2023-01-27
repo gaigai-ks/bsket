@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF3366">
+    android:background="@drawable/shape_sample">
 
     <TextView
         android:id="@+id/textlogout"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="356dp"
         android:text="@string/いいえ"
         android:textSize="60sp"
-        app:backgroundTint="#0E0E0E"
+        app:backgroundTint="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +49,7 @@
         android:layout_marginBottom="356dp"
         android:text="@string/はい"
         android:textSize="60sp"
-        app:backgroundTint="#000000"
+        app:backgroundTint="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/no"

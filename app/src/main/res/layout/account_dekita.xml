@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_sample">
 
     <Button
         android:id="@+id/button5"
@@ -15,6 +16,7 @@
         android:layout_marginBottom="56dp"
         android:text="ログイン"
         android:textSize="60sp"
+        app:backgroundTint="#FF9872"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/shape_sample">
 
 
     <Button
@@ -14,7 +14,7 @@
         android:layout_height="98dp"
         android:text="ログアウト"
         android:textSize="48sp"
-        app:backgroundTint="#008BCC"
+        app:backgroundTint="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -27,7 +27,7 @@
         android:layout_height="97dp"
         android:text="戻る"
         android:textSize="48sp"
-        app:backgroundTint="#008BCC"
+        app:backgroundTint="#2CC334"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -40,7 +40,7 @@
         android:layout_height="98dp"
         android:text="アカウント削除"
         android:textSize="48sp"
-        app:backgroundTint="#008BCC"
+        app:backgroundTint="#212121"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -5,8 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/shape_sample">
 
     <EditText
         android:id="@+id/accountId"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="605dp"
         android:text="@string/戻る"
         android:textSize="60sp"
-        app:backgroundTint="#4689FF"
+        app:backgroundTint="#2CC334"
         app:layout_constraintBottom_toTopOf="@+id/accountId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

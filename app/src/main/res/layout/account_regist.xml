@@ -191,6 +191,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="68dp"
         android:text="@string/作成"
+        app:backgroundTint="#FF9872"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -204,6 +205,7 @@
         android:layout_marginBottom="71dp"
         android:text="@string/キャンセル"
         android:textSize="20sp"
+        app:backgroundTint="#2CC334"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/login_button" />

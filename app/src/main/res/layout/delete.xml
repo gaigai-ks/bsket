@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_sample">
 
     <EditText
         android:id="@+id/Idnyuryoku"
@@ -90,6 +91,7 @@
         android:layout_marginTop="139dp"
         android:text="確定"
         android:textSize="48sp"
+        app:backgroundTint="#FF9872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
@@ -101,6 +103,7 @@
         android:layout_marginTop="68dp"
         android:text="@string/戻る"
         android:textSize="48sp"
+        app:backgroundTint="#2CC334"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 </androidx.constraintlayout.widget.ConstraintLayout>

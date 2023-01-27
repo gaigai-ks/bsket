@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#dfe"
+    android:background="@drawable/shape_sample"
     tools:context=".MainActivity">
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_height="244dp"
         android:text="@string/戻る"
         android:textSize="48sp"
-        app:backgroundTint="#FF8856"
+        app:backgroundTint="#2CC334"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintLeft_toLeftOf="parent"

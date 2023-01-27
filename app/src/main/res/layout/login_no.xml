@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_sample">
 
     <Button
         android:id="@+id/button3"
@@ -15,6 +16,7 @@
         android:layout_marginBottom="56dp"
         android:text="TOP"
         android:textSize="60sp"
+        app:backgroundTint="#2CC334"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +31,7 @@
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="634dp"
         android:text="@string/login_no"
-        android:textColor="#040101"
+        android:textColor="66BB6A"
         android:textSize="96sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_sample">
 
     <Button
         android:id="@+id/kakutei"
@@ -13,6 +14,7 @@
         android:layout_marginEnd="77dp"
         android:layout_marginBottom="144dp"
         android:text="確定"
+        app:backgroundTint="#FF9872"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -58,6 +60,7 @@
         android:layout_marginStart="101dp"
         android:layout_marginBottom="144dp"
         android:text="@string/戻る"
+        app:backgroundTint="#2CC334"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
