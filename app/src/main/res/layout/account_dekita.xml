@@ -29,7 +29,7 @@
         android:layout_marginTop="414dp"
         android:layout_marginBottom="634dp"
         android:text="アカウント作成完了"
-        android:textColor="#040101"
+        android:textColor="#130808"
         android:textSize="75sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
